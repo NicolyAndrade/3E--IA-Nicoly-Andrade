@@ -1,0 +1,27 @@
+:root {
+  --cor-fundo: #01080E;
+  --cor-principal: #070607ea;
+  --cor-secundaria: #63896e;
+  --cor-destaque: #09551ff3;
+  --cor-texto: #eff3f0;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.caixa-principal {
+  background-color: var(--cor-principal);
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: var(--cor-destaque);
+}
