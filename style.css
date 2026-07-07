@@ -1,8 +1,8 @@
 :root {
-  --cor-fundo: #01080E;
-  --cor-principal: #070607ea;
-  --cor-secundaria: #63896e;
-  --cor-destaque: #09551ff3;
+  --cor-fundo: #f1aadd;
+  --cor-principal: #f750c2ea;
+  --cor-secundaria: #de6ea4;
+  --cor-destaque: #de1e9ef3;
   --cor-texto: #eff3f0;
 }
 
@@ -24,4 +24,18 @@ body {
 
 h1 {
   color: var(--cor-destaque);
+}
+
+button {
+  background-color: var(--cor-fundo);
+  color: var(--cor-destaque);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--cor-destaque);
+  color: var(--cor-secundaria);
 }
